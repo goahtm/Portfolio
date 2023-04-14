@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bap.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="home.html">
+                <img src="./img/logo_for_room.jpg" alt=""></a>
+        </div>
+        <div class="nav_but">
+            <a href="list.html">레시피 리스트</a>
+        </div>
+    </div>
+    <section class="header">
+        <div class="title">
+            <h1>BiBimBap</h1>
+            <p>The food is great.</p>
+            <button type="button" onclick="window.open('list.html')">Recipe</button>
+        </div>
+    </section>
+    <div id="container">
+            <h1>비밤밥은 이렇게!</h1>
+            <div class="album">
+                <div class="images">
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+        </div>
+    <button class="prev">PREV</button>
+    <button class="next">NEXT</button>
+    <div id="texttable"></div>
+        <div class="textbox">
+            <div class="texts">
+                <div class="text">
+            <h1>재료 준비</h1>
+        쌀 540g(3컵), 사골육수 800mL(4컵), 쇠고기 육회(또는 쇠고기볶음) 150g, 콩나물 100g, 미나리 100g, 애호박 200g(1/2개), <br>도라지 100g(5뿌리), 고사리 150g(2/3컵), 건표고버섯 10g(3개), 무 80g, 오이 70g(1/2개), 당근 70g(1/2개), <br>황포묵 150g, 달걀 400g(8개), 다시마튀각, 잣, 식용유 적량, 찹쌀고추장 70g(4큰술)<br>
+        <쇠고기육회 양념> 간장 1작은술, 청주 1작은술, 참기름 1작은술, 다진 마늘, 통깨, 설탕 약간<br>
+        <콩나물, 미나리, 애호박, 도라지 양념> 소금, 다진 마늘, 깨소금, 참기름 적량<br>
+        <고사리, 표고버섯 양념> 간장, 다진 마늘, 깨소금, 참기름 적량<br>
+        <무 양념> 고춧가루, 소금, 다진 마늘, 다진 생강 적량<br> 
+                </div>
+                <div class="text">
+                    <h1>Step 1</h1>
+                    1.사골육수에 쌀을 넣어 약간 되직하게 밥을 짓는다. 이 밥을 넓은 그릇에 퍼 담아 식힌다.
+                </div>
+                <div class="text">
+                    <h1>Step 2,3,4</h1>
+                    2. 쇠고기육회는 분량의 양념으로 무친다.<br>3. 콩나물과 미나리는 끓는 물에 데쳐 분량의 양념으로 무친다.<br>4. 애호박은 채 썰어 소금에 절였다가 물기를 짜고, <br>도라지는 가늘게 찢어 소금으로 문질러 씻고 꼭 짠 후 분량의 양념을 넣고 식용유에 볶는다.
+                </div>
+                <div class="text">
+                    <h1>Step 5,6,7</h1>5. 고사리는 물에 1~2시간 불린 뒤에 줄기가 연해질 때까지 삶은 다음 짧게 썰고,
+                    건표고버섯은 물에 불려 채 썰어 분량의 양념으로 볶는다.<br>
+                    6. 무는 채로 썰어 분량의 양념으로 무치고, 오이와 당근은 곱게 채 썰어 놓는다.<br>
+                    7. 황포묵은 얇게 썰고, 달걀은 황백지단을 부쳐 곱게 채 썰고, 다시마튀각은 잘게 잘라 놓는다.
+                </div>
+                <div class="text">
+                    <h1>Step 8,9</h1>
+                    8. 그릇에 밥을 나누어 담고 재료들을 고루 돌려 담은 후 고추장을 얹는다.<br>
+                    9. 기호에 맞게 날달걀을 얹고 잣을 돌려 담는다.
+                </div>
+            </div>
+        </div>
+
+    <script src="./js/bap.js"></script>
+
+</body>
+</html>
