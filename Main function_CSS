@@ -1,0 +1,132 @@
+@charset "UTF-8";
+.nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nav .logo img {
+    width: 70px;
+    object-fit: cover;
+}
+
+.nav .nav_but a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.header{
+    background-image: url(../img/bibimbap.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    image-rendering: -webkit-optimize-contrast;
+}
+.header .title{
+    text-align: center;
+}
+
+.header .title a{
+    font-size: 12px;
+}
+
+.header .title h1{
+    font-size: 40px;
+    color: black;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+}
+
+.header .title p{
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #444;
+    font-size: 20px;
+}
+
+.header .title button{
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding:0px 20px;
+    font-size: 14px;
+    transition: .5s ease;
+}
+
+.header .title button:hover{
+    transition: .5s ease;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
+
+/*배경*/
+
+#container{ width: 500px; margin: 0 auto; }
+
+h1{ text-align: center; padding: auto;}
+
+.album{height: 400px; width: 100%; overflow: hidden;} /* overflow 되면 숨긴다*/
+.images{ 
+    display: flex; height: 400px; width: 2560px;
+    transition-property: transform; /* transform 속성에대해, js코드에 의해 transform 스타일 추가된다*/
+    transition-duration: 1s; /* transition 지속시간 */
+}
+.image{width: 500px; height: 400px;}
+.image:nth-child(1){background-image: url(../img/Step1.jpg); background-size: 500px;}
+.image:nth-child(2){background-image: url(../img/Step2.jpg); background-size: 500px;}
+.image:nth-child(3){background-image: url(../img/Step3.jpg); background-size: 500px;}
+.image:nth-child(4){background-image: url(../img/Step4.jpg); background-size: 500px;}
+.image:nth-child(5){background-image: url(../img/Step5.jpg); background-size: 500px;}
+
+button{
+    width: 100px; height: 30px; border:none;
+    color: white; background-color: blueviolet;
+}
+button:disabled{ /* disabled 된 버튼 */
+    background-color: gray;
+}
+
+/* 사진 있는 곳*/
+
+#texttable{ width: 600px; }
+
+.textbox { height: 60%; width: 50%; 
+    border: 0;
+    overflow: hidden;
+    margin: auto 45% auto 24%;
+    clip-path: inset(0px 1%);
+    display: inline-block;}
+
+.texts{
+    display: flex;
+    text-align: center;
+    height: 500px; width: 2560px;
+    font-size: 17px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.text{width: 100%; height: 500px; 
+    flex: 1 1 1 ; 
+    white-space: pre-line;}
+
+.text:nth-child(1){ flex-shrink: 0; width: 959px;}
+.text:nth-child(2){ flex-shrink: 0;   width: 37%;}
+.text:nth-child(3){ flex-shrink: 0;   width: 35%;}
+.text:nth-child(4){ flex-shrink: 0;   width: 40%;}
+.text:nth-child(5){ flex-shrink: 0;   width: 30%;}
+
+
+
+.prev{ float:left}
+.next{ float:right}
